@@ -72,7 +72,7 @@ const TextToSpeech = ({ text }) => {
 
   return (
     <>
-      <div className="my-7 grid grid-cols-4 gap-5 lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1">
+      <div className="mt-6 grid grid-cols-4 gap-5 lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1">
         <label>
           Voice:
           <select value={voice?.name} onChange={handleVoiceChange}>
@@ -143,7 +143,5 @@ const TextToSpeech = ({ text }) => {
     </>
   );
 };
-
-
 
 export default TextToSpeech;

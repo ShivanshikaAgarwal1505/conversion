@@ -1,8 +1,9 @@
 import Conversion from "./components/Conversion";
+import ToSpeech from "./components/ToSpeech";
 function App() {
   return (
-    <Conversion></Conversion>
-  );
+    <ToSpeech></ToSpeech>
+    );
 }
 
 export default App;
